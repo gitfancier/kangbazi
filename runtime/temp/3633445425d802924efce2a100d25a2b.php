@@ -1,0 +1,49 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"D:\phpStudy\WWW\kangbazi\public/../application/index\view\login\index.html";i:1530252399;}*/ ?>
+		<!--<form action="<?php echo url('login/login'); ?>" method="post">
+			<label for="">用户名：</label>
+			<input type="text" name="username" id="username" />
+			<label for="">密码：</label>
+			<input type="password" name="password" id="password" />
+			<button type="submit">登录</button>
+		</form>-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>教师登录</title>
+		<link rel="stylesheet" href="../../../../public/static/css/register.css" />
+	</head>
+	<body>
+	    <img class="tree" src="../../../../public/static/img/tree7.jpg" />
+		<form class="contact_form" method="post" name="contact_form" action="<?php echo url('login/login'); ?>">
+			
+		<!--<form action="<?php echo url('login/login'); ?>" method="post">-->
+			<ul>
+				<li class="usually">
+					<h2>教师登录</h2>
+				</li>
+				
+			<li class="usually">
+				<span>用户名：</span>
+				<input type="text" class="" name="username" id="username" required />
+			</li>
+			<!--<input type="text" name="username" id="username" />-->
+			
+			<li class="usually">
+				<span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
+				<input type="password" name="password" id="password" required />
+			</li>
+			
+			<!--<label for="">密码：</label>
+			<input type="password" name="password" id="password" />-->
+			<li>
+			    <button class="submit" type="submit">登录</button>
+			</li>
+			
+			</ul>
+		</form>
+		
+	</body>
+</html>
+
+
