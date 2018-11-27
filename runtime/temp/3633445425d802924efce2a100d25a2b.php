@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"D:\phpStudy\WWW\kangbazi\public/../application/index\view\login\index.html";i:1530252399;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"D:\phpStudy\WWW\kangbazi\public/../application/index\view\login\index.html";i:1543250268;}*/ ?>
 		<!--<form action="<?php echo url('login/login'); ?>" method="post">
 			<label for="">用户名：</label>
 			<input type="text" name="username" id="username" />
